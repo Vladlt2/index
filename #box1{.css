@@ -1,0 +1,22 @@
+#box1{
+   width: 250px;
+   height: 250px;
+   background: blueviolet;
+   font-size: 225px;
+   text-align: center;
+
+
+   animation: mySlide;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+   animation-play-state: running;
+   animation-timing-function: linear;
+   animation-delay: 0ms;
+  }
+
+
+
+@keyframes mySlide{
+   from{margin-left: 100%}
+   to{margin-left: 0%}
+  }
